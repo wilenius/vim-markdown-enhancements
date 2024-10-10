@@ -2,7 +2,7 @@
 " load for more filetypes
 augroup markdownSyntax
     autocmd!
-    autocmd FileType markdown,text,md,pandoc source %  " Add your target filetypes here
+    autocmd FileType markdown.pandoc source %  " Add your target filetypes here
 augroup END
 
 " multi-markdown
